@@ -16,41 +16,48 @@
         <a class="nav-link" href="#product-details">Product Details</a>
         <a class="nav-link" href="#buy-now">Buy Now</a>
         <a class="nav-link" href="#leave-a-message">Leave A Message</a>
-
     </nav>
 </header>
 
 <body>
 
-
-
-
     <section id="product-details">
-        <center>
-            <h1 id="product-name">Xiaomi Mi 10T Pro</h1>
+        <h1 id="product-name">Xiaomi Mi 10T Pro</h1>
+        <div id="video-div">
             <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/N-hVekc3s1k" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        </center>
+        </div>
     </section>
 
     <section id="buy-now">
         <div class="flex-container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div id="1">
+                <button><a class="button-link" href="https://www.mi.com/global/mi-10t-lite/" target="_blank">Buy Mi 10t
+                        Lite</a></button>
+            </div>
+            <div id="2">
+                <button><a class="button-link" href="https://www.mi.com/global/mi-10t/" target="_blank">Buy Mi
+                        10t</a></button>
+            </div>
+            <div id="3">
+                <button><a class="button-link" href="https://www.mi.com/global/mi-10t-pro/" target="_blank">Buy Mi 10t
+                        Pro</a></button>
+            </div>
         </div>
     </section>
 
     <section id="leave-a-message">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label id="message-label" for="message">Message:</label><br>
-            <textarea name="message" id="message" cols="40" rows="10"
-                placeholder="Please leave your message"></textarea><br>
-            <label id="email-label" for="email">Email:</label><br>
-            <input id="email" type="email" name="email" placeholder="someone@mail.com"><br>
-            <input id="submit" type="submit">
-        </form>
+        <center>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label id="message-label" for="message">Message:</label><br>
+                <textarea name="message" id="message" cols="40" rows="10"
+                    placeholder="Please leave your message"></textarea><br>
+                <label id="email-label" for="email">Email:</label><br>
+                <input id="email" type="email" name="email" placeholder="someone@mail.com"><br>
+                <input id="submit" type="submit">
+            </form>
+        </center>
     </section>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
